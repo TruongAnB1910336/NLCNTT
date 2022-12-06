@@ -1,0 +1,288 @@
+/* css header */
+#imgheader{
+    width: 100%;
+    height: 50px;
+}
+.header1{
+    height: 90px;
+    margin-top: -1%;
+    margin-bottom: 0%;
+    background-color: brown;
+}
+.logo{
+    width: 150px;
+    height: 80px;
+    padding-top: 25px;
+    padding-left: 30px;
+}
+.search{
+    position: relative;
+    width: 500px;
+    height: 30px;
+    margin-left: 100px;
+    top: 15px;
+    border-radius: 5px;
+}
+.fa-file-alt,.fa-user-circle,.fa-shopping-cart{
+    text-align: center;
+    color: white;
+}
+.text_icon{
+    position: relative;
+    top: 30px;
+    left: 40px;
+    margin-left: 40px;
+}
+ul{
+    list-style: none;
+    padding-top: 5px;
+}
+li.li_nav{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+i.i_li{
+    color: white;
+}
+i.i_li:hover{
+    color: blue;
+}
+.nav_bar{
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.838);
+}
+a>li>ul{
+    text-decoration: none;
+}
+.bgheader{
+    width: 100%;
+    height: 500px;
+}
+.sli{
+    border-radius: 15px;
+    width: 550px;
+    padding-left: 5px;
+}
+.slide{
+    margin-top: -100px;
+    margin-left: 50px;
+    margin-right:50px;
+    margin-bottom: 40px;
+}
+.h6_header{
+    display: inline;
+    font-size: 16px;
+} 
+.row_header{
+    position: relative;
+    left: 70px;
+    margin-bottom: 30px;
+}
+.col3_header{
+    border: 1px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 60px;
+    background-color: bisque;
+}
+.a_footer{
+    text-decoration: none;
+}
+a.a_footer:hover{
+    color: rgb(255, 0, 51);
+}
+ul.ul_footer > li{
+    padding-bottom: 10px;
+}
+footer{
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: antiquewhite;
+}
+.content_footer{
+    font-size: 10.5px;
+    text-align: center;
+}
+header{
+    margin-bottom: 10px;
+}
+/* css main */
+.h5_dealsoc{
+    position: relative;
+    display:inline;
+    color: yellow;
+    bottom: 30px;
+}
+.deal_soc{
+    padding: 10px;
+    border: 1px;
+    height: 700px;
+    border-radius: 10px;
+    background-color:rgba(255, 0, 0, 0.304);
+}
+.h6_time{
+    position: relative;
+    display: inline;
+    color: yellow;
+    left: -170px;
+}
+.img_dealsoc{
+    width: 100px;
+    height: 100px;
+}
+#carouselExampleControlsNoTouching{
+    border: 1px;
+    margin-top: 50px;
+    background-color: bisque;
+}
+.col-dealsoc{
+    float: left;
+    border: 1px;
+    border-radius: 10px;
+    width: 24%;
+    height: 230px;
+    background-color: white;
+    text-align: center;
+    margin: 10px 3px;
+    padding: 20px;
+}
+.col-laptop{
+    height: 200px;
+}
+.r:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.carousel-control-next-header,.carousel-control-prev-header{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+button.carousel-control-next-header{
+    height: 20px;
+    width: 20px;
+    margin-top: 70px;
+    margin-left: 10px;
+    background-color: red;
+}
+button.carousel-control-prev-header{
+    height: 20px;
+    width: 20px;
+    margin-top: 70px;
+    margin-left: 1120px;
+    background-color: red;
+}
+.img_dt_noibac{
+    width: 200px;
+    height: 200px;
+}
+.div_dt_noibat{
+    border: 1px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:rgba(255, 0, 0, 0.304);
+}
+.col3{
+    float: left;
+    border: 1px;
+    border-radius: 10px;
+    width: 24%;
+    background-color: white;
+    text-align: center;
+    margin: 10px 3px;
+    padding: 20px;
+}
+.div_goiyhomnay{
+    border: 1px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color:rgba(255, 0, 0, 0.304);
+}
+.carousel-control-next-dealsoc,.carousel-control-prev-dealsoc{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+button.carousel-control-next-dealsoc{
+    height: 20px;
+    width: 20px;
+    margin-top: 250px;
+    margin-left: 20px;
+    background-color: red;
+}
+button.carousel-control-prev-dealsoc{
+    height: 20px;
+    width: 20px;
+    margin-top: 250px;
+    margin-left: 970px;
+    background-color: red;
+}
+.thuonghieu{
+    border: 1px;
+    margin-left: 90px;
+}
+.thanhtoanonline{
+    width: 300px;
+    height: 170px;
+    border-radius: 10px;
+}
+.coltt{
+    margin-left: 55px;
+}
+.div_tt{
+    border: 1px;
+    height: 220px;
+    border-radius: 5px;
+    background-color:aqua;
+}
+.div_tt1{
+    position: relative;
+    margin-top: 20px;
+    top: 25px;
+}
+.del_qlsp{
+    border: 1px solid;
+    color: red;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: grey;
+}
+.edit_qlsp{
+    border: 1px solid;
+    color: yellow;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: grey;
+}
